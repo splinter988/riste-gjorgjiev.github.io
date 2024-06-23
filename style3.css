@@ -1,0 +1,100 @@
+body{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #1f1f1f;
+    color: #c9c9c9;
+    font-family: rob;
+}
+#menu ul{
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+    align-content: center;
+    justify-content: center;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 20px;
+}
+#menu ul a{
+    text-decoration: none;
+    color: #c9c9c9;
+}
+#menu{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    box-shadow: 0px 5px 7px black;
+}
+#menu > a > img{
+    display: flex;
+    width: 200px;
+    height: 100px;
+}
+a{
+    text-decoration: none;
+    color: #c9c9c9;
+}
+h1{
+    font-family: "Roboto Condensed", sans-serif;
+}
+#social{
+    font-family: "Roboto Condensed", sans-serif;
+}
+#social > ul{
+    font-family: "Roboto Condensed", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+}
+#social > ul > li{
+    list-style-type: none;
+    font-size: 30px;
+}
+#forms{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+}
+#forms > h1{
+    display: flex;
+    justify-content: center;
+}
+#forms > div{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+}
+#forms > div > input[type=text]:nth-child(4){
+    height: 150px;
+}
+
+#forms > div > textarea{
+    resize: none;
+    font-family: Arial, sans-serif;
+}
+
+
+#footer ul{
+    background-color: #181818;
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+    align-content: center;
+    justify-content: center;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 20px;
+}
+#footer ul a{
+    text-decoration: none;
+    color: #424242;
+}
